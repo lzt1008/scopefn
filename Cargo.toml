@@ -1,6 +1,6 @@
 [package]
 name = "scopefn"
-version = "0.0.1"
+version = "0.0.2"
 edition = "2021"
 authors = ["Neo Lyon <lzt1008@live.com>"]
 categories = ["rust-patterns", "no-std"]
