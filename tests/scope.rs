@@ -23,7 +23,7 @@ fn test_apply_mut() {
 }
 
 #[test]
-fn test_apply_useage() {
+fn test_apply_usage() {
     let v = vec![1, 1, 4, 5, 1, 4].apply_mut(|v| v.sort());
 
     assert_eq!(v, vec![1, 1, 1, 4, 4, 5]);
@@ -81,7 +81,6 @@ fn test_take_if() {
     assert_eq!(some, Some(42));
     assert_eq!(none, None);
 }
-
 
 #[test]
 fn test_take_unless() {

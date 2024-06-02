@@ -17,10 +17,7 @@ fn test_run_if_usage() {
     let x = vec![1, 2, 3];
     let need_filter = true;
 
-    let res = x
-        .into_iter()
-        .run_if(need_filter, |x| x.filter(|x| *x % 2 == 0))
-        .collect::<Vec<_>>();
+    let res = x.into_iter().run_if(need_filter, |x| x.filter(|x| *x % 2 == 0)).collect::<Vec<_>>();
 
     assert_eq!(res, vec![2]);
 }
