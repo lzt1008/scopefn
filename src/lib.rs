@@ -1,4 +1,5 @@
-pub mod scope;
+#![no_std]
+
 #[cfg(feature = "run_if")]
 pub mod run_if;
 pub mod scope;
